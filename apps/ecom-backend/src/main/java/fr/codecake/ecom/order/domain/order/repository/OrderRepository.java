@@ -21,8 +21,5 @@ public interface OrderRepository {
   Page<Order> findAllByUserPublicId(UserPublicId userPublicId, Pageable pageable);
 
   Page<Order> findAll(Pageable pageable);
-  Page<Order> findAllByUserPublicId(UserPublicId userPublicId, Pageable pageable);
-
-  Page<Order> findAll(Pageable pageable);
 
 }
